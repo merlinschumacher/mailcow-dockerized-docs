@@ -180,7 +180,7 @@ Um NTP zu aktivieren, müssen Sie den Befehl `timedatectl set-ntp true` ausführ
 
 ```
 # vim /etc/systemd/timesyncd.conf
-[Zeit]
+[Time]
 NTP=0.pool.ntp.org 1.pool.ntp.org 2.pool.ntp.org 3.pool.ntp.org
 ```
 
